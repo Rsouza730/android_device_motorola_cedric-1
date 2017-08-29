@@ -95,6 +95,10 @@ PRODUCT_COPY_FILES += \
     device/motorola/cedric/audio/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     device/motorola/cedric/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbt-vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937 \
