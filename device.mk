@@ -109,6 +109,7 @@ PRODUCT_PACKAGES += \
     camera.msm8937 \
     libbson \
     libshim_camera \
+    libshim_just \
     Snap
 
 # Camera Configurations

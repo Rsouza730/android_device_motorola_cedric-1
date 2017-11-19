@@ -32,6 +32,13 @@ LOCAL_MODULE := libshim_camera
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := MediaCodec.cpp
+LOCAL_SHARED_LIBRARIES := libstagefright libmedia
+LOCAL_MODULE := libshim_just
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_SHARED_LIBRARY)
+
 # IMS
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := MediaBuffer.c
