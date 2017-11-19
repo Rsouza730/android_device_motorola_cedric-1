@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
 
 # Audio Configurations
 PRODUCT_COPY_FILES += \
-    hardware/qcom/audio-caf/msm8996/configs/msm8937/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
+#    hardware/qcom/audio-caf/msm8996/configs/msm8937/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     device/motorola/cedric/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     device/motorola/cedric/audio/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     device/motorola/cedric/audio/audio_ext_spkr.conf:system/etc/audio_ext_spkr.conf \
