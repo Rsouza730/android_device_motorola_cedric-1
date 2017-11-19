@@ -135,10 +135,6 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
-# Filesystem
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd
