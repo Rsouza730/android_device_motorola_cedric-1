@@ -108,6 +108,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.msm8937 \
     libbson \
+    libshim_buffer \
     libshim_camera \
     libshim_just \
     Snap
@@ -176,10 +177,6 @@ PRODUCT_COPY_FILES += \
     device/motorola/cedric/gps/etc/lowi.conf:system/etc/lowi.conf \
     device/motorola/cedric/gps/etc/sap.conf:system/etc/sap.conf \
     device/motorola/cedric/gps/etc/xtwifi.conf:system/etc/xtwifi.conf
-
-# IMS
-PRODUCT_PACKAGES += \
-    libshim_ims
 
 # HIDL
 PRODUCT_COPY_FILES += \
